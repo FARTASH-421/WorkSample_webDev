@@ -1,0 +1,121 @@
+body{
+    box-sizing: 0;
+    margin: 0;
+    /* background-image: url(../ES1/S23-ultra-512gb.jpg);
+     */
+    background-color: bisque;
+    background-image: url(./image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.continer{
+    
+    /* margin: auto; */
+    /* text-align: center; */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-text{
+    color: rgb(236, 23, 23);
+    background-color: rgba(0,0,0,0.3);
+    margin: 20px;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10bx black;
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.box-l{
+    background-color:rgba(255, 255, 255, 0.3);
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius:  20px/50px;
+    border:3px solid white
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    padding: 20px;
+    font-size: 20px;
+    border:2px solid rgb(236, 23, 23);
+    border-radius: 20px/50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgb(236, 23, 23);
+}
+
+.overs{
+    background: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.popup{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+    padding: 30px;
+    font-size: 1.4rem;
+    
+
+}
+.overs:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.tes{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: inherit;
+    
+}
+
+.tes a{
+    padding: 20px;
+    font-size:40px ;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tes a:hover{
+    color: rgb(9, 247, 9);
+    font-weight: bold;
+}
