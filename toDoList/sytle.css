@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.continer{
+    background-color: rgb(63,40,26);
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.cover{
+    background-color: rgb(144, 99, 60);
+    height: calc(700px - 60px);
+    padding: 10px;
+    border: 2px dashed white;
+    outline: 10px solid rgb(144, 99, 60);
+    border-radius: 20px;
+}
+
+.titleBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: rgb(219, 188, 150);
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0px 10px 15px black;
+
+
+}
+
+.myAdd{
+    background-color: rgb(98, 98, 226);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
+
+.myAdd span{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(252, 246, 235);
+    display: block;
+    position:relative;
+
+
+}
+.l1{
+    left: 5px;
+    top:3px
+    
+}
+.line{
+    background-color: rgba(240, 135, 65, 0.685);
+    width: 2px;
+    height: inherit;
+    position:fixed;
+    left: 120px;
+    bottom: 48px;
+}
+.l2{
+    transform: rotateZ(90deg);
+    bottom: 2px;
+    left: 5px;
+}
+
+.Myedit{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-color:inherit;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
+.itemList{
+    margin: 15px 5px;
+    background-color: blanchedalmond;
+    width: inherit;
+    height: 525px;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: scroll;
+    scrollbar-width:none;    
+}
+
+ul > li{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.425);
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    padding: 30px;
+}
+.liItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+  }
+#myText{
+    /* background-color: red; */
+    width: 280px;
+    height: inherit;
+    border-left: 2px solid rgba(255, 115, 0, 0.699);
+    text-align: center;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
