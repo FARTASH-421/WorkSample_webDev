@@ -1,6 +1,6 @@
 # Works Sample web Devlopment
 
-#Simple Stopwatch
+# Simple Stopwatch
 
 https://github.com/user-attachments/assets/0bcec8e6-c7f0-4597-acd8-db8696b1a21d
 
