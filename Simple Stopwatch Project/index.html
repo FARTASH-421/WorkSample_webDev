@@ -10,11 +10,15 @@
 
     <div class="continer">
         <h1 id="Stopwatch">Stopwatch</h1>
-            <h3 id="display"> 00:00:00</h3>
+        <div id="show">
+            <div id="display"> 00 : 00 : 00 </div>
+            <div id="ms">.00</div>
+        </div>
+       
         <div>
-            <button id = "start">Start</button>
-            <button id = "start">Stop</button>
-            <button id = "start">Rest</button>
+            <button id = "start" onclick="start()">Start</button>
+            <button id = "stop" onclick="stop()">Stop</button>
+            <button id = "rest" onclick="rest()">Rest</button>
         </div>
     </div>
     

@@ -44,3 +44,28 @@ button:hover{
 button:active{
     background-color: rgb(30, 255, 0);
 }
+
+#display{
+    display: flex;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#show{
+    display: flex;
+    font-size: 120px;
+    font-weight: bold;
+    color: rgba(255, 0, 76, 0.575);
+    background-color: rgba(116, 116, 116, 0.082);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+    height: 170px;
+    flex-wrap: wrap;
+
+}
+
+#ms{
+    width: 180px;
+    height: 220px;
+}
