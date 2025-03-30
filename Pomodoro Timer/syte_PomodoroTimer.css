@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.continer{
+    background-image: linear-gradient(#1122, #133);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    font-size: 2rem;
+    /* color: white; */
+}
+
+button{
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    border: none;
+}
+
+.box_sh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 100px;
+}
+
+.box_sh #display{
+    /* background-color: greenyellow; */
+    width: calc(450px - 35%);
+    height: inherit;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.box_sh #edit{
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+#edit:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+#Text{
+    position: absolute;
+    background-color: rgb(115, 170, 233);
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 20px;
+    visibility:hidden;
+    
+}
+#Text h2{
+    font-size: 2.3rem;
+}
+
+#textBt{
+    width: 320px;
+    text-align: center;
+    font-size: 3rem;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#close{
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    
+    position: absolute;
+    margin: 0px;
+    top: 0;
+    right: 0px;
+    background-color: inherit;
+}
+
+#close:hover{
+    cursor: pointer;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 0px 20px;
+    font-size: 2.5rem;
+}

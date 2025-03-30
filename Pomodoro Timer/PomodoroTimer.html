@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./syte_PomodoroTimer.css">
+</head>
+<body>
+
+    <div class="continer">
+        <h1> Pomodoro Timer</h1>
+        <div class="box_sh">
+            <div id="display">25:00</div>
+            <button id="edit" onclick="editFun()">SetTime</button>
+        </div>
+        
+        <div class="but">
+            <button id="start">START</button>
+            <button id="stop">STOP</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+
+    <div id="Text">
+        <h2>Enter your Time</h2>
+        <input type="text" id="textBt">
+        <button id="close" onclick="closeFun()">x</button>
+    </div>
+    
+
+    <script src="./PomodoroTimer.js"></script>
+</body>
+</html>
