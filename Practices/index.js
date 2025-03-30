@@ -69,27 +69,63 @@
 //  static keyword in jS
 // -----------------------------------
 
-class User{
-    static counter = 0;
-    constructor(fName, lName){
-        this.fristName = fName;
-        this.lastName = lName;
-        User.counter += 1;
+// class User{
+//     static counter = 0;
+//     constructor(fName, lName){
+//         this.fristName = fName;
+//         this.lastName = lName;
+//         User.counter += 1;
+//     }
+
+//     display(){
+//         console.log(`my frist name is ${this.fristName}`);
+//         console.log(`my Last name is ${this.lastName}`);
+//     }
+// }
+
+
+// const user1 = new User("A.Qadir", "Fartash");
+// const user2 = new User("Ahmad", "Ahmadi");
+
+
+// user1.display();
+// console.log('\n');
+// user2.display();
+
+// console.log(User.counter)
+
+
+// ----------------------
+// inhertance in js
+// ----------------------
+
+class Animal{
+    constructor(name){
+        this.name = name;
     }
 
     display(){
-        console.log(`my frist name is ${this.fristName}`);
-        console.log(`my Last name is ${this.lastName}`);
+        
     }
 }
 
+class Fish extends Animal{
+    constructor(nameAnimal, age, speed){
+        super(nameAnimal);
+        this.age = age;
+        this.speed = speed;
+    }
 
-const user1 = new User("A.Qadir", "Fartash");
-const user2 = new User("Ahmad", "Ahmadi");
+    
+    display(){
+        super.display();
+        console.log(`this is a name ${this.name}`);
+        console.log(`this is my age ${this.age}`);
+        console.log(`this my speed ${this.speed}`);
 
+    }
+}
 
-user1.display();
-console.log('\n');
-user2.display();
+const fish = new Fish("Bobo", 3, 45);
 
-console.log(User.counter)
+fish.display()
