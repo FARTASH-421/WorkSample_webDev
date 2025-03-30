@@ -32,34 +32,64 @@
 //  class in javaScript
 // -----------------------------
 
-class Product {
+// class Product {
 
-    constructor(name, price){
-        this.price = price;
-        this.name = name;
-        this.dis = `${this.name}: ${this.price}`
+//     constructor(name, price){
+//         this.price = price;
+//         this.name = name;
+//         this.dis = `${this.name}: ${this.price}`
+//     }
+
+//     display(){
+//         console.log(`Product Name: ${this.name}`);
+//         console.log(`Price Product $${this.price.toFixed(2)}`);
+//     }
+
+//     getName(){
+//         return this.name;
+//     }
+
+//     getPrice() {
+//         return this.price;
+//     }
+// }
+
+// const p1 = new Product("Computer", 124);
+// p1.display()
+// console.log(p1.dis);
+// console.log(p1.getName());
+// console.log(p1.getPrice());
+
+// const p2 = new Product("Mobile", 40);
+// p2.display();
+// console.log(p2.dis);
+
+
+// -----------------------------------
+//  static keyword in jS
+// -----------------------------------
+
+class User{
+    static counter = 0;
+    constructor(fName, lName){
+        this.fristName = fName;
+        this.lastName = lName;
+        User.counter += 1;
     }
 
     display(){
-        console.log(`Product Name: ${this.name}`);
-        console.log(`Price Product $${this.price.toFixed(2)}`);
-    }
-
-    getName(){
-        return this.name;
-    }
-
-    getPrice() {
-        return this.price;
+        console.log(`my frist name is ${this.fristName}`);
+        console.log(`my Last name is ${this.lastName}`);
     }
 }
 
-const p1 = new Product("Computer", 124);
-p1.display()
-console.log(p1.dis);
-console.log(p1.getName());
-console.log(p1.getPrice());
 
-const p2 = new Product("Mobile", 40);
-p2.display();
-console.log(p2.dis);
+const user1 = new User("A.Qadir", "Fartash");
+const user2 = new User("Ahmad", "Ahmadi");
+
+
+user1.display();
+console.log('\n');
+user2.display();
+
+console.log(User.counter)

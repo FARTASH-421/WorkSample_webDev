@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    flex-wrap: wrap;
 }
 
 #Stopwatch{
@@ -62,6 +63,8 @@ button:active{
     border-radius: 30px;
     height: 170px;
     flex-wrap: wrap;
+    box-shadow: inset -0px 0px 10px rgba(0, 0, 0, 0.5),
+                inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 
 }
 
