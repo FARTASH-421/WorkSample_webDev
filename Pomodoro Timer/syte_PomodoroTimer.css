@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-.continer{
+body{
     background-image: linear-gradient(#1122, #133);
     height: 100vh;
     width: 100%;
@@ -15,7 +15,18 @@
     gap: 5px;
     text-align: center;
     font-size: 2rem;
-    /* color: white; */
+}
+.continer{
+    background-color: rgba(255, 255, 255, 0.32);
+    padding: 30px ;
+    border-radius: 20px;
+    width: 600px;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
@@ -24,6 +35,7 @@ button{
     border-radius: 15px;
     padding: 5px 20px;
     border: none;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .box_sh{
@@ -61,7 +73,7 @@ button{
 
 #Text{
     position: absolute;
-    background-color: rgb(115, 170, 233);
+    background-image: linear-gradient(45deg,#39ff85, #3389f8, #56f9ffde);
     top: 50%;
     left: 50%;
     height: 300px;
@@ -74,17 +86,16 @@ button{
     align-items: center;
     font-size: 2rem;
     border-radius: 20px;
-    visibility:hidden;
     
 }
 #Text h2{
-    font-size: 2.3rem;
+    font-size: 3rem;
 }
 
 #textBt{
-    width: 320px;
+    width: 120px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     border: none;
     border-radius: 15px;
     margin: 10px;
@@ -96,19 +107,81 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
-    
-    position: absolute;
-    margin: 0px;
-    top: 0;
-    right: 0px;
-    background-color: inherit;
+    position:relative;
+    top: 10%;
+    left: 50%;
+    padding: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.836);
+    box-shadow: 0px 0px 20px 20px rgba(252, 252, 252, 0.815);
 }
 
 #close:hover{
     cursor: pointer;
-    color: red;
-    background-color: rgba(255, 255, 255, 0.158);
-    padding: 0px 20px;
-    font-size: 2.5rem;
+    background-color: rgba(255, 138, 138, 0.884);
+    box-shadow: 0px 0px 30px 30px rgb(255, 28, 28);
+    padding: 0px 10px;
+    /* font-size: 2.5rem; */
+}
+
+
+#submet{
+    background-color: rgba(255, 255, 255, 0.349);
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    /* margin-top: 50px; */
+    width: 200px;
+    font-size:30px;
+}
+
+#submet:hover{
+    background-color: rgba(255, 255, 255);
+    color: black;
+}
+
+
+#submet:active{
+    background-color: rgb(51, 255, 0);
+}
+
+#boxInpu{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right:0px;
+    left: 0px;
+    background-color: rgba(39, 39, 39, 0.7);
+    /* visibility: hiddewhn; */
+    
+}
+
+.divChoos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#choos{
+    /* height: 50px; */
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: inherit;
+    border: 2px solid white;
+    
+}
+
+#choos:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.bt:hover{
+    background-color: white;
+    cursor: pointer;
 }

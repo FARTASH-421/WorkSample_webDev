@@ -16,15 +16,26 @@
         </div>
         
         <div class="but">
-            <button id="start">START</button>
-            <button id="stop">STOP</button>
-            <button id="reset">RESET</button>
+            <button id="start" class="bt">START</button>
+            <button id="stop"  class="bt">STOP</button>
+            <button id="reset" class="bt">RESET</button>
         </div>
     </div>
 
-    <div id="Text">
-        <h2>Enter your Time</h2>
-        <input type="text" id="textBt">
+    <div id="boxInpu">
+        <div id="Text">
+            <h2>Enter your Time</h2>
+            <div class="divChoos">
+                <input type="text" id="textBt">
+                <select name="select" id="choos">
+                    <option value="defult">defult</option>
+                    <option value="sec">secand</option>
+                    <option value="min">minet</option>
+                    <option value="hr">hour</option>
+                </select>
+            </div>
+            <button id="submet" onclick="submetFun()">okey</button>
+        </div>
         <button id="close" onclick="closeFun()">x</button>
     </div>
     
