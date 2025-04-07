@@ -146,7 +146,18 @@
 
 // swap Values in Arrays
 
+// const colors = ["red", "green", "blue", "black", "white"];
+// console.log(colors);
+// [colors[0], colors[4]] = [colors[4], colors[0]]
+// console.log(colors);
+
+
+// Extiract value in function
+function displayColor([firstColor, secondColor, ...Exrt]){
+    console.log(`frist color: ${firstColor}`)
+    console.log(`second color: ${secondColor}`)
+    console.log(`Other Colors: ${Exrt}`)
+}
 const colors = ["red", "green", "blue", "black", "white"];
-console.log(colors);
-[colors[0], colors[4]] = [colors[4], colors[0]]
-console.log(colors);
+
+displayColor(colors)
