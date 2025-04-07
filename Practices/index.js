@@ -99,33 +99,46 @@
 // inhertance in js
 // ----------------------
 
-class Animal{
-    constructor(name){
-        this.name = name;
-    }
+// class Animal{
+//     constructor(name){
+//         this.name = name;
+//     }
 
-    display(){
+//     display(){
         
-    }
-}
+//     }
+// }
 
-class Fish extends Animal{
-    constructor(nameAnimal, age, speed){
-        super(nameAnimal);
-        this.age = age;
-        this.speed = speed;
-    }
+// class Fish extends Animal{
+//     constructor(nameAnimal, age, speed){
+//         super(nameAnimal);
+//         this.age = age;
+//         this.speed = speed;
+//     }
 
     
-    display(){
-        super.display();
-        console.log(`this is a name ${this.name}`);
-        console.log(`this is my age ${this.age}`);
-        console.log(`this my speed ${this.speed}`);
+//     display(){
+//         super.display();
+//         console.log(`this is a name ${this.name}`);
+//         console.log(`this is my age ${this.age}`);
+//         console.log(`this my speed ${this.speed}`);
 
-    }
-}
+//     }
+// }
 
-const fish = new Fish("Bobo", 3, 45);
+// const fish = new Fish("Bobo", 3, 45);
 
-fish.display()
+// fish.display()
+
+
+// ----------------------------------
+// Destructuring in JS
+// -----------------------------
+
+// swap Values;
+let a = 30;
+let b = 20;
+console.log(`a: ${a} -> b: ${b}`);
+
+[a, b] = [b, a];
+console.log(`a: ${a} -> b: ${b}`);
