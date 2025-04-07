@@ -164,17 +164,27 @@
 
 
 // Extract data in Object
-const Person1 = {
-    firstName: "Fartash",
-    lastName : "A.Qadir",
-    age:        23,
-    job:        "Student"
-}
+// const Person1 = {
+//     firstName: "Fartash",
+//     lastName : "A.Qadir",
+//     age:        23,
+//     job:        "Student"
+// }
 
 
-const {fName, lName, age, job} = Person1;
+// const {fName, lName, age, job="worker"} = Person1;
 
-console.log(`first Name: ${fName}`);
-console.log(`second Name: ${lName}`);
-console.log(`my ange : ${age}`);
-console.log(`my Job : ${job}`);
+// console.log(`first Name: ${fName}`);
+// console.log(`second Name: ${lName}`);
+// console.log(`my ange : ${age}`);
+// console.log(`my Job : ${job}`);
+
+
+// -----------------------
+// sort method
+// ------------------------
+
+
+const nums = [1, 9, 2, 3, 7, 4, 8, 5];
+nums.sort((a, b) => b - a);
+console.log(nums)
