@@ -187,4 +187,22 @@
 
 const nums = [1, 9, 2, 3, 7, 4, 8, 5];
 nums.sort((a, b) => b - a);
-console.log(nums)
+console.log(nums);
+
+
+const Poeple = [
+    {name: "Ahmad", age: 23, GPA: 3.2},
+    {name: "Spangebob", age: 43, GPA: 2},
+    {name: "Farhad", age: 19, GPA: 1.5},
+    {name: "Zahra", age: 20, GPA: 2.7},
+    {name: "Dawod", age: 30, GPA: 3},
+];
+
+
+Poeple.sort((a, b) => a.age - b.age);
+
+console.log(Poeple)
+Poeple.push({name:"Fartash", age: 23, GPA: 4});
+console.log(Poeple)
+Poeple.sort((a, b)=> a.GPA + b.GPA);
+console.log(Poeple)
