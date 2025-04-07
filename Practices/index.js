@@ -153,11 +153,28 @@
 
 
 // Extiract value in function
-function displayColor([firstColor, secondColor, ...Exrt]){
-    console.log(`frist color: ${firstColor}`)
-    console.log(`second color: ${secondColor}`)
-    console.log(`Other Colors: ${Exrt}`)
-}
-const colors = ["red", "green", "blue", "black", "white"];
+// function displayColor([firstColor, secondColor, ...Exrt]){
+//     console.log(`frist color: ${firstColor}`)
+//     console.log(`second color: ${secondColor}`)
+//     console.log(`Other Colors: ${Exrt}`)
+// }
+// const colors = ["red", "green", "blue", "black", "white"];
 
-displayColor(colors)
+// displayColor(colors)
+
+
+// Extract data in Object
+const Person1 = {
+    firstName: "Fartash",
+    lastName : "A.Qadir",
+    age:        23,
+    job:        "Student"
+}
+
+
+const {fName, lName, age, job} = Person1;
+
+console.log(`first Name: ${fName}`);
+console.log(`second Name: ${lName}`);
+console.log(`my ange : ${age}`);
+console.log(`my Job : ${job}`);
