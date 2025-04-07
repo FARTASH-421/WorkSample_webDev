@@ -136,9 +136,17 @@
 // -----------------------------
 
 // swap Values;
-let a = 30;
-let b = 20;
-console.log(`a: ${a} -> b: ${b}`);
+// let a = 30;
+// let b = 20;
+// console.log(`a: ${a} -> b: ${b}`);
 
-[a, b] = [b, a];
-console.log(`a: ${a} -> b: ${b}`);
+// [a, b] = [b, a];
+// console.log(`a: ${a} -> b: ${b}`);
+
+
+// swap Values in Arrays
+
+const colors = ["red", "green", "blue", "black", "white"];
+console.log(colors);
+[colors[0], colors[4]] = [colors[4], colors[0]]
+console.log(colors);
