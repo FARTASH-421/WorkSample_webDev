@@ -185,27 +185,64 @@
 // ------------------------
 
 
-const nums = [1, 9, 2, 3, 7, 4, 8, 5];
-nums.sort((a, b) => b - a);
-console.log(nums);
+// const nums = [1, 9, 2, 3, 7, 4, 8, 5];
+// nums.sort((a, b) => b - a);
+// console.log(nums);
 
 
-const Poeple = [
-    {name: "Ahmad", age: 23, GPA: 3.2},
-    {name: "Spangebob", age: 43, GPA: 2},
-    {name: "Fartash", age: 19, GPA: 1.5},
-    {name: "Zahra", age: 20, GPA: 2.7},
-    {name: "Dawod", age: 30, GPA: 3},
-];
+// const Poeple = [
+//     {name: "Ahmad", age: 23, GPA: 3.2},
+//     {name: "Spangebob", age: 43, GPA: 2},
+//     {name: "Fartash", age: 19, GPA: 1.5},
+//     {name: "Zahra", age: 20, GPA: 2.7},
+//     {name: "Dawod", age: 30, GPA: 3},
+// ];
 
 
-// Poeple.sort((a, b) => a.age - b.age);
+// // Poeple.sort((a, b) => a.age - b.age);
 
-Poeple.push({name:"Fartash", age: 23, GPA: 4});
-// console.log(Poeple)
-Poeple.sort((a, b)=>  b.GPA - a.GPA);
-// console.log(Poeple)
-Poeple.sort((a, b) => a.name.localeCompare(b.name));
+// Poeple.push({name:"Fartash", age: 23, GPA: 4});
+// // console.log(Poeple)
+// Poeple.sort((a, b)=>  b.GPA - a.GPA);
+// // console.log(Poeple)
+// Poeple.sort((a, b) => a.name.localeCompare(b.name));
 
 
-console.log(Poeple)
+// console.log(Poeple);
+
+
+// const cards = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 'J', 'Q', 'K'];
+
+// shffer(cards);
+// console.log(cards);
+
+// function shffer(array){
+
+//     for(let i= array.length-1; i>0 ; i--){
+//         const rondum = Math.floor(Math.random() * (i+1));
+//         [array[i], array[rondum]] = [array[rondum], array[i]];
+//     }
+// }
+
+
+// const date = new Date();
+// console.log(date)
+
+
+
+// consol.time("name lable")
+
+// console.time("Start")
+// for (let i=0; i< 1000000000; i++){
+//     // nothing
+// }
+
+// console.timeEnd("Start")
+
+let number = 123456.789
+
+// number = number.toLocaleString("en-UA")
+// number = number.toLocaleString('fa-IR')
+// number = number.toLocaleString('fa')
+
+console.log(number)
