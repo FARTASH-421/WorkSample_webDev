@@ -10,7 +10,7 @@ function funClose(){
     menu.style.visibility = "visible"; 
     
     for(let i=0; i< icon.length; i++){
-        icon[i].style.fontSize = "2.3rem";
+        icon[i].style.fontSize = "2.1rem";
     }
 }
 
@@ -19,7 +19,7 @@ function funOpen(){
     menu.style.visibility = "hidden";
     item.style.transform = "translateX(0)";
     item.style.transition = "all 0.7s";
-    
+
     for(let i=0; i< icon.length; i++){
         icon[i].style.fontSize = "1.6rem";
     }
