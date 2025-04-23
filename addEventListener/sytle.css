@@ -1,0 +1,34 @@
+#myBox{
+    height: 300px;
+    width: 400px;
+    background-color: greenyellow;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#myBt{
+    margin: 20px 10px;
+    font-size: 3rem;
+    border-radius: 10px;
+    border: 1px solid balck;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    position: relative;
+    left:70px;
+}
+
+#myBt:hover{
+    background-color: blue;
+}
+
+#myBt:active{
+    background-color: rgb(21, 156, 247);
+}
